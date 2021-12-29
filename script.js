@@ -15,7 +15,7 @@ const countryDetails = (data) => {
     data.forEach((country) => {
         const myDiv = document.createElement("div");
         myDiv.className = "card d-flex m-5";
-        myDiv.style.width = "280px";
+        myDiv.style.width = "250px";
         myDiv.style.height = "400px";
         myDiv.style.border = "2px solid black";
         myDiv.innerHTML = `<img src="${country.flags.svg}" alt=""/>
